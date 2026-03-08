@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Use the Dating Luck Calculator to get a fast score based on your inputs and selected country." />
+  <link rel="canonical" href="https://example.com/tools/dating-luck-calculator/" />
+  <title>Dating Luck Calculator</title>
+  <link rel="stylesheet" href="../../assets/css/theme.css" />
+  <link rel="stylesheet" href="./styles.css" />
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Dating Luck Calculator","url":"https://example.com/tools/dating-luck-calculator/","applicationCategory":"CalculatorApplication","operatingSystem":"Web","description":"Use the Dating Luck Calculator to get a fast score based on your inputs and selected country.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What does this calculator do?","acceptedAnswer":{"@type":"Answer","text":"It provides a quick directional score based on your inputs and country context."}},{"@type":"Question","name":"Is this an exact prediction?","acceptedAnswer":{"@type":"Answer","text":"No. Results are estimate-based and for guidance and entertainment."}}]}</script>
+
+</head>
+<body>
+  <header class="site-header">
+    <h1>Dating Luck Calculator</h1>
+    <p class="hero-description">Fun viral calculator for instant dating reality vibes.</p>
+  </header>
+
+  <main class="grid">
+    <section class="panel">
+      <h2>Inputs Section</h2>
+      <label>Country Selector
+        <select id="country"></select>
+      </label>
+      <label>Confidence (0-10)
+        <input id="confidence" type="number" min="0" max="10" step="0.1" value="7.0" />
+      </label>
+      <label>Social Skill (0-10)
+        <input id="social" type="number" min="0" max="10" step="0.1" value="7.2" />
+      </label>
+      <label>Consistency (0-10)
+        <input id="consistency" type="number" min="0" max="10" step="0.1" value="6.8" />
+      </label>
+      <label>Effort (0-10)
+        <input id="effort" type="number" min="0" max="10" step="0.1" value="7.1" />
+      </label>
+      <button id="calculateBtn">Generate Viral Score</button>
+      <p><a href="../../index.html">Back to Dating Reality Tools</a></p>
+    </section>
+    <section class="panel">
+      <h2>Result Panel</h2>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
