@@ -6,34 +6,57 @@
 
 * { box-sizing: border-box; }
 body { margin: 0; }
+
 .site-header {
   background: linear-gradient(120deg, #331c80, #7b5cff);
   color: #fff;
   padding: 1.5rem;
 }
-nav { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 0.8rem; }
-nav a { color: #fff; text-decoration: none; font-weight: 600; }
+
+.site-header h1 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-description {
+  margin: 0.65rem 0 0;
+  max-width: 900px;
+  line-height: 1.5;
+  color: #f0ebff;
+}
+
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
+
 .panel {
   background: #fff;
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
+
 .intro { color: #4a4a4a; }
-label { display: block; margin-bottom: 0.7rem; font-size: 0.95rem; }
+
+label {
+  display: block;
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
 input, select, button {
   width: 100%;
   margin-top: 0.25rem;
   padding: 0.55rem;
   border-radius: 8px;
   border: 1px solid #cdd3e1;
+  font-size: 1rem;
 }
+
 button {
   cursor: pointer;
   background: #7b5cff;
@@ -41,6 +64,7 @@ button {
   border: none;
   font-weight: 700;
 }
+
 .result-card {
   background: #f4f1ff;
   border: 1px solid #ded4ff;
@@ -48,11 +72,91 @@ button {
   padding: 1rem;
   margin-bottom: 1rem;
 }
+
 .metric-notes ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
 .metric-notes li { margin-bottom: 0.3rem; }
-.share-actions { display: flex; gap: 0.5rem; }
-.seo-content { padding: 1rem; margin: 1rem; }
-.muted { color: #666; font-size: 0.92rem; }
+
+.share-actions {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.seo-content {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.92rem;
+}
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .seo-content { margin: 1rem; }
+}
+
 @media (max-width: 640px) {
-  .share-actions { flex-direction: column; }
+  .site-header {
+    padding: 1rem;
+  }
+
+  .site-header h1 {
+    font-size: 1.35rem;
+  }
+
+  .hero-description {
+    font-size: 0.92rem;
+  }
+
+  .simulator-note {
+    font-size: 0.86rem;
+  }
+
+
+  .grid {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .panel {
+    padding: 0.85rem;
+    border-radius: 10px;
+  }
+
+  .share-actions {
+    grid-template-columns: 1fr;
+  }
+
+  input, select, button {
+    padding: 0.65rem;
+    min-height: 42px;
+  }
+
+  .seo-content {
+    margin: 0.75rem;
+    padding: 0.85rem;
+  }
+}
+
+
+.simulator-note {
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  color: #575757;
+  line-height: 1.45;
+}
+
+button {
+  transition: transform 0.12s ease, filter 0.12s ease, opacity 0.12s ease;
+}
+
+button:active {
+  transform: scale(0.98);
+  filter: brightness(0.95);
+}
+
+button.is-generating {
+  opacity: 0.82;
 }

@@ -34,14 +34,7 @@
 <body>
   <header class="site-header">
     <h1>Dating Reality Calculator Platform</h1>
-    <p>Generate My Dating Reality</p>
-    <nav>
-      <a href="/male-delusion-calculator/">Male Delusion Calculator</a>
-      <a href="/female-delusion-calculator/">Female Delusion Calculator</a>
-      <a href="/dating-pool-calculator/">Dating Pool Calculator</a>
-      <a href="/dating-market-value-calculator/">Dating Market Value Calculator</a>
-      <a href="/dating-reality-calculator/">Dating Reality Calculator</a>
-    </nav>
+    <p class="hero-description">This app combines Male Delusion Calculator, Female Delusion Calculator, Dating Pool Calculator, Dating Market Value Calculator, and Dating Reality Calculator into one report. Adjust your standards once to see rarity, competitiveness, and long-term probability in a single view.</p>
   </header>
 
   <main class="grid">
@@ -52,6 +45,9 @@
       <label>Country
         <select id="country">
           <option value="usa">USA</option>
+          <option value="canada">Canada</option>
+          <option value="uk">United Kingdom</option>
+          <option value="australia">Australia</option>
         </select>
       </label>
       <label>Target Gender
@@ -67,11 +63,15 @@
       <label>Marital Status
         <select id="maritalStatus">
           <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
         </select>
       </label>
       <label>BMI
         <select id="bmiRange">
           <option value="non_obese">Non-obese</option>
+          <option value="overweight">Overweight</option>
+          <option value="obese">Obese</option>
         </select>
       </label>
 
@@ -89,6 +89,7 @@
 
       <button id="generateBtn">Generate My Dating Reality</button>
       <div id="sliderContainer"></div>
+      <p class="simulator-note"><strong>Reality Adjustment Simulator</strong> shows how small changes (height, income, age range) can significantly expand or shrink your matching population in real time.</p>
     </section>
 
     <section class="panel">
