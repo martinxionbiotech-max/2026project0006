@@ -15,81 +15,8 @@ export const fallbackPopulationData = {
     income_over_100000: 0.1,
     income_over_150000: 0.04,
     single_rate: 0.4,
-    married_rate: 0.45,
-    divorced_rate: 0.15,
     non_obese: 0.6,
-    overweight: 0.28,
-    obese: 0.12,
     marriage_rate: 0.48
-  },
-  canada: {
-    total_population: 40000000,
-    male_population: 19800000,
-    female_population: 20200000,
-    age_distribution: {
-      '18-24': 0.11,
-      '25-35': 0.17,
-      '36-45': 0.17
-    },
-    height_over_175: 0.5,
-    height_over_180: 0.17,
-    height_over_185: 0.05,
-    income_over_50000: 0.4,
-    income_over_100000: 0.14,
-    income_over_150000: 0.05,
-    single_rate: 0.38,
-    married_rate: 0.48,
-    divorced_rate: 0.14,
-    non_obese: 0.57,
-    overweight: 0.3,
-    obese: 0.13,
-    marriage_rate: 0.5
-  },
-  uk: {
-    total_population: 68000000,
-    male_population: 33500000,
-    female_population: 34500000,
-    age_distribution: {
-      '18-24': 0.1,
-      '25-35': 0.16,
-      '36-45': 0.16
-    },
-    height_over_175: 0.46,
-    height_over_180: 0.14,
-    height_over_185: 0.04,
-    income_over_50000: 0.32,
-    income_over_100000: 0.08,
-    income_over_150000: 0.03,
-    single_rate: 0.36,
-    married_rate: 0.49,
-    divorced_rate: 0.15,
-    non_obese: 0.59,
-    overweight: 0.29,
-    obese: 0.12,
-    marriage_rate: 0.46
-  },
-  australia: {
-    total_population: 27000000,
-    male_population: 13300000,
-    female_population: 13700000,
-    age_distribution: {
-      '18-24': 0.11,
-      '25-35': 0.18,
-      '36-45': 0.16
-    },
-    height_over_175: 0.52,
-    height_over_180: 0.19,
-    height_over_185: 0.06,
-    income_over_50000: 0.42,
-    income_over_100000: 0.15,
-    income_over_150000: 0.06,
-    single_rate: 0.37,
-    married_rate: 0.5,
-    divorced_rate: 0.13,
-    non_obese: 0.58,
-    overweight: 0.3,
-    obese: 0.12,
-    marriage_rate: 0.49
   }
 };
 

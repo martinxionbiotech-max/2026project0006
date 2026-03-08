@@ -9,7 +9,6 @@ let sliderState = { height: 180, income: 100000, ageMax: 35 };
 
 const resultCard = document.querySelector('#resultCard');
 const chartCanvas = document.querySelector('#poolChart');
-const generateBtn = document.querySelector('#generateBtn');
 
 function syncManualInputsWithSliders() {
   document.querySelector('#heightMin').value = String(sliderState.height);
@@ -99,15 +98,7 @@ async function main() {
     generateReport();
   }, sliderState);
   bindShareActions();
-  generateBtn.addEventListener('click', () => {
-    generateBtn.classList.add('is-generating');
-    generateBtn.textContent = 'Generating...';
-    generateReport();
-    window.setTimeout(() => {
-      generateBtn.classList.remove('is-generating');
-      generateBtn.textContent = 'Generate My Dating Reality';
-    }, 280);
-  });
+  document.querySelector('#generateBtn').addEventListener('click', generateReport);
   syncManualInputsWithSliders();
   generateReport();
 }
