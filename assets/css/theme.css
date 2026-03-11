@@ -5,23 +5,12 @@
 }
 
 * { box-sizing: border-box; }
-body {
-  margin: 0;
-  background: #eef1f6;
-}
-
-body > * {
-  width: min(1200px, calc(100% - 2rem));
-  margin-left: auto;
-  margin-right: auto;
-}
+body { margin: 0; }
 
 .site-header {
   background: linear-gradient(120deg, #331c80, #7b5cff);
   color: #fff;
   padding: 1.5rem;
-  margin-top: 1rem;
-  border-radius: 14px;
 }
 .site-header h1 { margin: 0; line-height: 1.2; }
 .hero-description { margin: 0.65rem 0 0; max-width: 900px; line-height: 1.5; color: #f0ebff; }
