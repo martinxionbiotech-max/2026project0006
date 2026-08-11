@@ -1,0 +1,72 @@
+# Dating Reality Calculator Platform
+> A comprehensive dating reality platform with 49 free interactive calculators that estimate dating pool rarity, market value, compatibility, and relationship probability.
+
+## Pages
+- [Home](https://seriouscalculator.com/): Dating Reality Calculator Platform – 49 free dating tools and full report
+- [Male Delusion Calculator](https://seriouscalculator.com/male-delusion-calculator/): Are your dating standards realistic?
+- [Female Delusion Calculator](https://seriouscalculator.com/female-delusion-calculator/): Analyze dating standards with age, income, and height
+- [Dating Pool Calculator](https://seriouscalculator.com/dating-pool-calculator/): How the calculator works
+- [Dating Market Value Calculator](https://seriouscalculator.com/dating-market-value-calculator/): Score your dating value
+- [Dating Reality Calculator](https://seriouscalculator.com/dating-reality-calculator/): Full dating reality report
+
+## Dating Reality Tools (49 calculators)
+- [Age Gap Compatibility](https://seriouscalculator.com/tools/age-gap-compatibility/)
+- [Age Gap Compatibility Calculator](https://seriouscalculator.com/tools/age-gap-compatibility-calculator/)
+- [Are Your Standards Too High](https://seriouscalculator.com/tools/are-your-standards-too-high/)
+- [Attraction Compatibility Calculator](https://seriouscalculator.com/tools/attraction-compatibility-calculator/)
+- [Breakup Risk Calculator](https://seriouscalculator.com/tools/breakup-risk-calculator/)
+- [Commitment Probability Calculator](https://seriouscalculator.com/tools/commitment-probability-calculator/)
+- [Communication Compatibility Score](https://seriouscalculator.com/tools/communication-compatibility-score/)
+- [Dating Age Gap Calculator](https://seriouscalculator.com/tools/dating-age-gap-calculator/)
+- [Dating Luck Calculator](https://seriouscalculator.com/tools/dating-luck-calculator/)
+- [Dating Market Value Calculator](https://seriouscalculator.com/tools/dating-market-value-calculator/)
+- [Dating Pool Calculator](https://seriouscalculator.com/tools/dating-pool-calculator/)
+- [Dating Pool Size Calculator](https://seriouscalculator.com/tools/dating-pool-size-calculator/)
+- [Dating Reality Calculator](https://seriouscalculator.com/tools/dating-reality-calculator/)
+- [Dating Risk Calculator](https://seriouscalculator.com/tools/dating-risk-calculator/)
+- [Dating Standards Calculator](https://seriouscalculator.com/tools/dating-standards-calculator/)
+- [Emotional Availability Test](https://seriouscalculator.com/tools/emotional-availability-test/)
+- [Emotional Compatibility Calculator](https://seriouscalculator.com/tools/emotional-compatibility-calculator/)
+- [Female Delusion Calculator](https://seriouscalculator.com/tools/female-delusion-calculator/)
+- [Financial Compatibility Calculator](https://seriouscalculator.com/tools/financial-compatibility-calculator/)
+- [Flirting Skill Score](https://seriouscalculator.com/tools/flirting-skill-score/)
+- [Ghosting Probability Calculator](https://seriouscalculator.com/tools/ghosting-probability-calculator/)
+- [How Many People Find You Attractive](https://seriouscalculator.com/tools/how-many-people-find-you-attractive/)
+- [Ideal Partner Builder](https://seriouscalculator.com/tools/ideal-partner-builder/)
+- [Jealousy Test](https://seriouscalculator.com/tools/jealousy-test/)
+- [Lifestyle Compatibility Calculator](https://seriouscalculator.com/tools/lifestyle-compatibility-calculator/)
+- [Long Distance Compatibility](https://seriouscalculator.com/tools/long-distance-compatibility/)
+- [Love Compatibility Calculator](https://seriouscalculator.com/tools/love-compatibility-calculator/)
+- [Loyalty Test](https://seriouscalculator.com/tools/loyalty-test/)
+- [Male Delusion Calculator](https://seriouscalculator.com/tools/male-delusion-calculator/)
+- [Marriage Compatibility Score](https://seriouscalculator.com/tools/marriage-compatibility-score/)
+- [Name Compatibility Calculator](https://seriouscalculator.com/tools/name-compatibility-calculator/)
+- [New Tool Placeholder](https://seriouscalculator.com/tools/new-tool-placeholder/)
+- [Partner Availability Calculator](https://seriouscalculator.com/tools/partner-availability-calculator/)
+- [Partner Effort Calculator](https://seriouscalculator.com/tools/partner-effort-calculator/)
+- [Partner Income Calculator](https://seriouscalculator.com/tools/partner-income-calculator/)
+- [Partner Loyalty Score](https://seriouscalculator.com/tools/partner-loyalty-score/)
+- [Partner Realism Calculator](https://seriouscalculator.com/tools/partner-realism-calculator/)
+- [Personality Compatibility Calculator](https://seriouscalculator.com/tools/personality-compatibility-calculator/)
+- [Personality Match Calculator](https://seriouscalculator.com/tools/personality-match-calculator/)
+- [Relationship Drama Score](https://seriouscalculator.com/tools/relationship-drama-score/)
+- [Relationship Investment Calculator](https://seriouscalculator.com/tools/relationship-investment-calculator/)
+- [Relationship Red Flag Test](https://seriouscalculator.com/tools/relationship-red-flag-test/)
+- [Relationship Stability Calculator](https://seriouscalculator.com/tools/relationship-stability-calculator/)
+- [Relationship Toxicity Test](https://seriouscalculator.com/tools/relationship-toxicity-test/)
+- [Situationship Probability Test](https://seriouscalculator.com/tools/situationship-probability-test/)
+- [Soulmate Probability](https://seriouscalculator.com/tools/soulmate-probability/)
+- [Texting Compatibility Calculator](https://seriouscalculator.com/tools/texting-compatibility-calculator/)
+- [Trust Score Test](https://seriouscalculator.com/tools/trust-score-test/)
+- [Zodiac Compatibility Calculator](https://seriouscalculator.com/tools/zodiac-compatibility-calculator/)
+
+## Statistics
+- 55 total pages (1 home + 5 sub-pages + 49 tools)
+- Interactive dating calculators covering compatibility, market value, relationship probability, and dating standards
+- Chart.js-powered visualizations on main calculator
+
+## Schema Types
+- WebApplication
+- FAQPage
+- ItemList
+- BreadcrumbList
