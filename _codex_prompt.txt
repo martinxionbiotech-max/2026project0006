@@ -1,0 +1,27 @@
+You are performing a technical SEO/AIO code audit and optimization on a static dating-calculator site.
+
+Repo (working directory): /root/.openclaw/workspace/repos/2026project0006
+Site: https://seriouscalculator.com — 56 HTML pages, 49 calculator tools, static HTML/CSS/JS.
+
+TASK — CODE ONLY. Do NOT rewrite or touch content copy / FAQ text / visible page wording (that is handled separately by OpenClaw). Only technical SEO/AIO components:
+
+1. Audit ALL HTML pages for:
+   - JSON-LD schema: WebApplication, FAQPage, and any others — presence, validity (well-formed JSON-LD), and consistency across pages. Every calculator page should have FAQPage matching its visible FAQ content.
+   - <title> and meta description — presence, length (title ~50-60 chars, desc ~140-160), and uniqueness (no duplicate titles/descriptions across pages).
+   - <link rel="canonical"> — correct absolute URL per page (no trailing-slash mismatches).
+   - Open Graph + Twitter Card meta tags — presence and correct og:url/og:title/og:description/og:image.
+   - hreflang (skip if single-language).
+2. Verify robots.txt and sitemap.xml correctness: sitemap lists all live pages, no broken/duplicate URLs, sitemap referenced from robots.txt.
+3. Verify llms.txt completeness and accuracy (it should describe the site + list key pages + schema types).
+4. Performance basics (report only, do not over-optimize): render-blocking scripts, images missing alt attributes, oversized local assets.
+5. FIX the gaps you find by editing code directly (schema, meta, canonical, OG, sitemap, robots, llms.txt, alt attributes). Keep changes minimal and correct.
+
+Do NOT run git commit/push (OpenClaw handles that).
+
+OUTPUT: Write a Markdown report to /root/.openclaw/workspace/repos/2026project0006/CODEX_SEO_AIO_AUDIT.md containing:
+- What you audited
+- Gaps found (before)
+- Changes made (after)
+- Remaining recommendations (if any)
+
+Then reply with exactly: CODEX_AUDIT_DONE
