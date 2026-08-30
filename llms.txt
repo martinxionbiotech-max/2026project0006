@@ -1,15 +1,15 @@
 # Dating Reality Calculator Platform
-> A comprehensive dating reality platform with 49 free interactive calculators that estimate dating pool rarity, market value, compatibility, and relationship probability.
+> A comprehensive dating reality platform with 48 free interactive calculators that estimate dating pool rarity, market value, compatibility, and relationship probability.
 
 ## Pages
-- [Home](https://seriouscalculator.com/): Dating Reality Calculator Platform – 49 free dating tools and full report
-- [Male Delusion Calculator](https://seriouscalculator.com/male-delusion-calculator/): Are your dating standards realistic?
-- [Female Delusion Calculator](https://seriouscalculator.com/female-delusion-calculator/): Analyze dating standards with age, income, and height
-- [Dating Pool Calculator](https://seriouscalculator.com/dating-pool-calculator/): How the calculator works
-- [Dating Market Value Calculator](https://seriouscalculator.com/dating-market-value-calculator/): Score your dating value
-- [Dating Reality Calculator](https://seriouscalculator.com/dating-reality-calculator/): Full dating reality report
+- [Home](https://seriouscalculator.com/): Dating Reality Calculator Platform – 48 free dating tools and full report
+- [Male Delusion Calculator](https://seriouscalculator.com/tools/male-delusion-calculator/): Are your dating standards realistic?
+- [Female Delusion Calculator](https://seriouscalculator.com/tools/female-delusion-calculator/): Analyze dating standards with age, income, and height
+- [Dating Pool Calculator](https://seriouscalculator.com/tools/dating-pool-calculator/): How the calculator works
+- [Dating Market Value Calculator](https://seriouscalculator.com/tools/dating-market-value-calculator/): Score your dating value
+- [Dating Reality Calculator](https://seriouscalculator.com/tools/dating-reality-calculator/): Full dating reality report
 
-## Dating Reality Tools (49 calculators)
+## Dating Reality Tools (48 calculators)
 - [Age Gap Compatibility](https://seriouscalculator.com/tools/age-gap-compatibility/)
 - [Age Gap Compatibility Calculator](https://seriouscalculator.com/tools/age-gap-compatibility-calculator/)
 - [Are Your Standards Too High](https://seriouscalculator.com/tools/are-your-standards-too-high/)
@@ -41,7 +41,6 @@
 - [Male Delusion Calculator](https://seriouscalculator.com/tools/male-delusion-calculator/)
 - [Marriage Compatibility Score](https://seriouscalculator.com/tools/marriage-compatibility-score/)
 - [Name Compatibility Calculator](https://seriouscalculator.com/tools/name-compatibility-calculator/)
-- [New Tool Placeholder](https://seriouscalculator.com/tools/new-tool-placeholder/)
 - [Partner Availability Calculator](https://seriouscalculator.com/tools/partner-availability-calculator/)
 - [Partner Effort Calculator](https://seriouscalculator.com/tools/partner-effort-calculator/)
 - [Partner Income Calculator](https://seriouscalculator.com/tools/partner-income-calculator/)
@@ -61,7 +60,7 @@
 - [Zodiac Compatibility Calculator](https://seriouscalculator.com/tools/zodiac-compatibility-calculator/)
 
 ## Statistics
-- 55 total pages (1 home + 5 sub-pages + 49 tools)
+- 49 total pages (1 home + 48 tools)
 - Interactive dating calculators covering compatibility, market value, relationship probability, and dating standards
 - Chart.js-powered visualizations on main calculator
 
